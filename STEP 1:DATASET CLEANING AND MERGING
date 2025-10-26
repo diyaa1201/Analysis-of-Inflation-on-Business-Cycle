@@ -1,0 +1,14 @@
+Data Cleaning & Merging Summary
+
+We cleaned and merged two datasets — India’s macroeconomic indicators and CPI inflation data (1970–2024) — to create a unified, analysis-ready dataset.
+Key steps included:
+
+Removed redundant headers, formatted numeric columns, and replaced missing markers with NaN.
+
+Standardized year formats (e.g., 2024-25 → 2024_25) for alignment.
+
+Performed an inner join on the Year column, yielding 55 complete years (1970–2024).
+
+Handled missing values by retaining complete inflation indices (CPI_AL, CPI_IW, CPI_IW_Food) and interpolating minor gaps.
+
+Final dataset: 55 rows × 9 columns, fully cleaned, type-consistent, and chronologically ordered — forming a robust base for inflation-growth analysis.
