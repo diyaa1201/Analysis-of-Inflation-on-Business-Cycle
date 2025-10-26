@@ -1,0 +1,23 @@
+Exploratory Data Analysis (EDA) Summary — Inflation & Economic Growth in India (1970–2025)
+
+We conducted a comprehensive EDA on 55 years of Indian macroeconomic data to explore the relationship between inflation and economic growth.
+
+Univariate Analysis:
+Examined distributions and trends in GDP, per capita GDP, and multiple inflation indices. Growth averaged 5.47%, while inflation (especially food inflation) showed high volatility due to supply shocks and base-year changes.
+
+Time Series Trends:
+Visualized long-term patterns highlighting India’s 1991 economic reforms as a structural break—transitioning from the “Hindu rate of growth” (4.33%) to a post-reform average of 6.09% with improved inflation stability.
+
+Correlation Analysis:
+Found weak negative correlations (-0.10 to -0.16) between inflation and growth. Rolling correlations showed time-varying dynamics, with occasional positive phases during specific economic periods.
+
+Business Cycle Insights:
+Identified 19 boom, 22 moderate, and 12 slowdown years. Inflation tended to peak during slowdowns (avg. 8.86%), suggesting mild stagflation patterns.
+
+Box Plot Comparisons:
+Recession phases had lower growth and higher inflation medians. Post-reform years displayed higher, more stable growth without worsening inflation.
+
+Structural Break Analysis:
+The 1991 reforms marked a pivotal turning point—achieving both higher growth and better inflation control, challenging the traditional inflation-growth tradeoff.
+
+Overall, visual and statistical exploration revealed a complex, non-linear relationship between inflation and economic growth in India, emphasizing structural and policy-driven dynamics over simple economic correlations.
