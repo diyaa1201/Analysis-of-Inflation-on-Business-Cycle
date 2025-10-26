@@ -1,6 +1,7 @@
 Economic Indicators and CPI Inflation Analysis
 Project Overview
 This project analyzes the relationship between macroeconomic indicators and consumer price inflation in India over a 55-year period (1970-2024). The analysis combines economic growth data with inflation metrics to understand how economic development correlates with price levels over time.
+
 **Dataset 1:** Economic Indicators
 Description:Comprehensive macroeconomic data tracking India's economic performance from 1950-2024, containing key national accounts and per capita metrics.
 Attributes & Definitions:
