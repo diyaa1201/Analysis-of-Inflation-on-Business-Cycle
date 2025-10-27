@@ -1,70 +1,95 @@
-**Analysis of Inflation on Business and Economic Growth**
+# 📈 Analysis of Inflation on Business and Economic Growth (India)
 
+### 🧾 Overview
+This project analyzes the relationship between **inflation** and **economic growth in India** using real-world macroeconomic indicators obtained from the **World Bank Open Data** and **Government of India (MOSPI)** sources.  
+It explores how inflation trends correlate with GDP, GNI, and other measures of economic growth over time, applying **data warehousing** and **data mining** techniques to uncover meaningful insights.
 
-📘 Overview
-This project analyzes the relationship between inflation and economic growth in India using real-world macroeconomic indicators. It explores how inflation trends correlate with GDP, GNI, and other growth measures over time, applying data warehousing and data mining techniques.
+---
 
-# Inflation Analysis Project
+## 📘 Project Objectives
+- Examine how inflation impacts India’s economic growth and income levels.
+- Identify correlations between inflation, GDP, GNI, and per capita income.
+- Visualize macroeconomic trends and fluctuations over the years.
+- Apply data preprocessing, analysis, and visualization techniques in Python.
 
-## Project Overview
-This project analyzes [mention what, e.g., global inflation trends, US CPI data, the impact of specific factors] using Python. The goal is to [mention your goal, e.g., identify key drivers, forecast future inflation, or visualize historical trends].
+---
 
-## Repository Contents
-- `inflation_analysis.ipynb`: The main Jupyter Notebook containing the complete code, from data loading to visualization and analysis.
+## 🗂️ Repository Structure
+| File | Description |
+|------|--------------|
+| [`inflation_analysis.ipynb`][(inflation_analysis.ipynb) ](https://github.com/diyaa1201/Analysis-of-Inflation-on-Business-Cycle/blob/main/Analysis_of_inflation.ipynb)| Main Jupyter Notebook containing all the steps — from data cleaning and merging to analysis and visualization. |
+| `data/macro_data.csv` | Contains GDP, GNI, NNI, and per capita indicators for India. |
+| `data/cpi_data.csv` | Contains annual inflation (CPI) data. |
+| `data/merged_data.csv` | Final merged dataset used for analysis. |
+| `README.md` | Project documentation. |
 
+> 📌 Click on the notebook link above to directly open the analysis in GitHub.
+
+---
+
+## 💾 Dataset Information
+
+### **1️⃣ Macroeconomic Indicators Dataset**
+**Source:** [World Bank Open Data](https://data.worldbank.org/)  
+**Variables:**
+- `Year` — Time period (2000–2024)  
+- `GDP` — Gross Domestic Product (in USD)  
+- `GNI` — Gross National Income (in USD)  
+- `NNI` — Net National Income (in USD)  
+- `PerCapita_GDP`, `PerCapita_GNI`, `PerCapita_NNI` — Per capita metrics  
+
+---
+
+### **2️⃣ Inflation (CPI) Dataset**
+**Source:** [World Bank CPI Data](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG)  
+**Variables:**
+- `YEAR` — Year of record  
+- `Inflation_Rate` — Annual % change in the Consumer Price Index (CPI)
+
+---
+
+### **3️⃣ Merged Dataset**
+Created by merging the above two datasets on the **Year** column.  
+Used for **EDA** (Exploratory Data Analysis) and **visualization** of inflation–growth patterns.
+
+---
+
+## 🧹 Data Cleaning & Preprocessing
+- Standardized year formats and converted to integers.  
+- Renamed columns for consistency.  
+- Removed missing or irrelevant rows.  
+- Converted numeric fields to appropriate data types.  
+- Merged datasets to form a single clean DataFrame.  
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+Performed using **Python (Pandas, NumPy, Matplotlib, Seaborn)**:
+- 📈 Time-series visualization of GDP, GNI, and Inflation Rate.  
+- 🔥 Correlation heatmaps to identify variable relationships.  
+- 📉 Trendline comparison between Inflation Rate and GDP growth.  
+- 🧮 Outlier detection and year-wise fluctuation analysis.  
+
+---
+
+## 💡 Key Findings
+- Periods of **high inflation** correspond with **slower GDP growth**.  
+- **Per capita income** growth shows resilience to short-term inflation spikes.  
+- Strong **post-2014 correlation** between inflation control and economic stability.  
+
+---
+
+## 🧰 Tools & Technologies
+| Category | Tools Used |
+|-----------|-------------|
+| **Languages** | Python |
+| **Libraries** | Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels |
+| **Data Sources** | World Bank Open Data, MOSPI |
+| **Environment** | Jupyter Notebook / Google Colab |
+
+---
+
+## ⚙️ Installation
+If you want to run the notebook locally, install dependencies using:
+```bash
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
-📂 Dataset Information
-Source
-The datasets were collected from the World Bank Open Data and Government of India (MOSPI) sources.
-
-
-**Datasets Used: Macroeconomic Indicators Dataset**
-Source: World Bank Data
-
-
-Variables:
-Year — Time period (2000–2024)
-GDP — Gross Domestic Product (in USD)
-GNI — Gross National Income (in USD)
-NNI — Net National Income (in USD)
-PerCapita_GDP, PerCapita_GNI, PerCapita_NNI — Per capita metrics
-Inflation (CPI) Dataset
-Source: World Bank CPI Data
-
-
-Variables:
-YEAR — Year of record
-Inflation_Rate — Annual percentage change in Consumer Price Index (CPI)
-Merged Dataset
-Created by merging the above two datasets on the Year column.
-Used for exploratory data analysis (EDA) and visualization of inflation–growth patterns.
-
-
-
-🧹 Data Cleaning & Preprocessing
-Converted inconsistent year formats to integers.
-Renamed columns for uniformity across datasets.
-Removed null or irrelevant rows (e.g., missing economic indicators).
-Converted numeric values to appropriate types (float/int).
-Merged datasets to form a single clean data frame for analysis.
-
-
-
-📊 Exploratory Data Analysis (EDA)
-Time-series visualization of GDP, GNI, and Inflation Rate.
-Correlation heatmaps to identify relationships.
-Trendline comparison between Inflation Rate and GDP growth.
-Outlier detection and year-wise fluctuation study.
-
-
-💡 Key Findings
-High inflation periods correspond with dips in GDP growth.
-Per capita income growth rates are more resilient to short-term inflation spikes.
-Strong correlation between inflation control and economic stability post-2014.
-
-
-🧰 Tools & Technologies
-Languages: Python
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
-Data Source: World Bank Open Data
-IDE: Jupyter Notebook / Google Colab
