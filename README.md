@@ -1,8 +1,18 @@
 **Analysis of Inflation on Business and Economic Growth**
+
+
 📘 Overview
 This project analyzes the relationship between inflation and economic growth in India using real-world macroeconomic indicators. It explores how inflation trends correlate with GDP, GNI, and other growth measures over time, applying data warehousing and data mining techniques.
 
+# Inflation Analysis Project
 
+## Project Overview
+This project analyzes [mention what, e.g., global inflation trends, US CPI data, the impact of specific factors] using Python. The goal is to [mention your goal, e.g., identify key drivers, forecast future inflation, or visualize historical trends].
+
+## Repository Contents
+- `inflation_analysis.ipynb`: The main Jupyter Notebook containing the complete code, from data loading to visualization and analysis.
+
+pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
 📂 Dataset Information
 Source
 The datasets were collected from the World Bank Open Data and Government of India (MOSPI) sources.
