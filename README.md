@@ -1,7 +1,7 @@
 # 📈 Analysis of Inflation on Business and Economic Growth (India)
 
 ### 🧾 Overview
-This project analyzes the relationship between **inflation** and **economic growth in India** using real-world macroeconomic indicators obtained from the **World Bank Open Data** and **Government of India (MOSPI)** sources.  
+This project analyzes the relationship between **inflation** and **economic growth in India** using real-world macroeconomic indicators obtained from the Reserve Bank of India Database sources.  
 It explores how inflation trends correlate with GDP, GNI, and other measures of economic growth over time, applying **data warehousing** and **data mining** techniques to uncover meaningful insights.
 
 ---
@@ -35,7 +35,8 @@ It explores how inflation trends correlate with GDP, GNI, and other measures of 
 - `GDP` — Gross Domestic Product (in USD)  
 - `GNI` — Gross National Income (in USD)  
 - `NNI` — Net National Income (in USD)  
-- `PerCapita_GDP`, `PerCapita_GNI`, `PerCapita_NNI` — Per capita metrics  
+- `PerCapita_GDP`, `PerCapita_GNI`, `PerCapita_NNI` — Per capita metrics
+- 'Country' -India
 
 ---
 
@@ -83,8 +84,8 @@ Performed using **Python (Pandas, NumPy, Matplotlib, Seaborn)**:
 |-----------|-------------|
 | **Languages** | Python |
 | **Libraries** | Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels |
-| **Data Sources** | World Bank Open Data, MOSPI |
-| **Environment** | Jupyter Notebook / Google Colab |
+| **Data Sources** | RBI DBEI[(https://data.rbi.org.in/DBIE/)]|
+| **Environment** |  Google Colab |
 
 ---
 
