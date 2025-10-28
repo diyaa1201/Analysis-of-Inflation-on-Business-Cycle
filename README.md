@@ -18,7 +18,7 @@ It explores how inflation trends correlate with GDP, GNI, and other measures of 
 | File | Description |
 |------|--------------|
 | [`inflation_analysis.ipynb`][(inflation_analysis.ipynb) ](https://github.com/diyaa1201/Analysis-of-Inflation-on-Business-Cycle/blob/main/Analysis_of_inflation.ipynb)| Main Jupyter Notebook containing all the steps — from data cleaning and merging to analysis and visualization. |
-| `data/macro_data.csv` | Contains GDP, GNI, NNI, and per capita indicators for India. |
+| [`economic_data.csv`][(economic_data.csv) ](https://github.com/diyaa1201/Analysis-of-Inflation-on-Business-Cycle/blob/main/economic_data.csv)| Contains GDP, GNI, NNI, and per capita indicators for India. |
 | `data/cpi_data.csv` | Contains annual inflation (CPI) data. |
 | `data/merged_data.csv` | Final merged dataset used for analysis. |
 | `README.md` | Project documentation. |
