@@ -19,9 +19,8 @@ It explores how inflation trends correlate with GDP, GNI, and other measures of 
 |------|--------------|
 | [`inflation_analysis.ipynb`][(inflation_analysis.ipynb) ](https://github.com/diyaa1201/Analysis-of-Inflation-on-Business-Cycle/blob/main/Analysis_of_inflation.ipynb)| Main Jupyter Notebook containing all the steps — from data cleaning and merging to analysis and visualization. |
 | [`economic_data.csv`][(economic_data.csv) ](https://github.com/diyaa1201/Analysis-of-Inflation-on-Business-Cycle/blob/main/economic_data.csv)| Contains GDP, GNI, NNI, and per capita indicators for India. |
-| `data/cpi_data.csv` | Contains annual inflation (CPI) data. |
-| `data/merged_data.csv` | Final merged dataset used for analysis. |
-| `README.md` | Project documentation. |
+| [`cpi_data.csv`][(cpi_data.csv) ](https://github.com/diyaa1201/Analysis-of-Inflation-on-Business-Cycle/blob/main/cpi_data.csv) | Contains annual inflation (CPI) data. |
+| [`final_cleaned_economic_cpi_data.csv`][(final_cleaned_economic_cpi_data.csv) ](https://github.com/diyaa1201/Analysis-of-Inflation-on-Business-Cycle/blob/main/final_cleaned_economic_cpi_data.csv) | Final cleaned and merged dataset used for analysis. |
 
 > 📌 Click on the notebook link above to directly open the analysis in GitHub.
 
@@ -30,9 +29,9 @@ It explores how inflation trends correlate with GDP, GNI, and other measures of 
 ## 💾 Dataset Information
 
 ### **1️⃣ Macroeconomic Indicators Dataset**
-**Source:** [World Bank Open Data](https://data.worldbank.org/)  
+**Source:** [Reserve Bank Of India]
 **Variables:**
-- `Year` — Time period (2000–2024)  
+- `Year` — Time period (1950–2024)  
 - `GDP` — Gross Domestic Product (in USD)  
 - `GNI` — Gross National Income (in USD)  
 - `NNI` — Net National Income (in USD)  
@@ -41,7 +40,7 @@ It explores how inflation trends correlate with GDP, GNI, and other measures of 
 ---
 
 ### **2️⃣ Inflation (CPI) Dataset**
-**Source:** [World Bank CPI Data](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG)  
+**Source:** [Reserve Bank Of India]
 **Variables:**
 - `YEAR` — Year of record  
 - `Inflation_Rate` — Annual % change in the Consumer Price Index (CPI)
