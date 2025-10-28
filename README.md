@@ -71,8 +71,8 @@ This project analyzes the relationship between **inflation** and **economic grow
 * Visual inspection for structural breaks or policy-era changes (pre/post liberalization).
 * Outlier detection and year-by-year comparison for major economic events (e.g., 1991 reforms, global crises).
 
-**50-word summary after EDA (example placed in notebook):**
-After EDA we cleaned and merged CPI and macro datasets, converted variables to numeric, tested stationarity, visualized trends and correlations, engineered lag features, and split data for modeling — setting the dataset for VAR econometric analysis and machine-learning forecasting (Random Forest, XGBoost).
+
+After EDA , converted variables to numeric, tested stationarity, visualized trends and correlations, engineered lag features, and split data for modeling — setting the dataset for VAR econometric analysis and machine-learning forecasting (Random Forest, XGBoost).
 
 ---
 
