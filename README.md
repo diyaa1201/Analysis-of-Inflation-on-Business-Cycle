@@ -2,7 +2,7 @@
 
 ## 🧾 Overview
 
-This project analyzes the relationship between **inflation** and **economic growth in India** using macroeconomic indicators obtained from the **Reserve Bank of India (RBI) DBIE**. It explores how inflation trends correlate with GDP, GNI, NNI, and per-capita metrics across the time span **1950–2024**, applying time-series econometrics and machine learning to extract insights and build forecasting models.
+This project analyzes the relationship between **inflation** and **economic growth in India** using macroeconomic indicators obtained from the **Reserve Bank of India (RBI) DBIE**. It explores how inflation trends correlate with GDP, GNI, NNI, and per-capita metrics across the time span **1970–2024**, applying time-series econometrics and machine learning to extract insights and build forecasting models.
 
 ---
 
@@ -28,11 +28,11 @@ This project analyzes the relationship between **inflation** and **economic grow
 ## 💾 Dataset Information
 
 **Source:** Reserve Bank of India — Database on Indian Economy (DBIE).
-**Time span:** Annual observations, **1950 – 2024**.
+**Time span:** Annual observations, **1970 – 2024**.
 
 ### Variables / Metrics used
 
-* `Year` — time index (1950–2024)
+* `Year` — time index (1970–2024)
 * `GDP` — Gross Domestic Product (nominal or real as in RBI file)
 * `GNI` — Gross National Income
 * `NNI` — Net National Income
@@ -49,7 +49,7 @@ This project analyzes the relationship between **inflation** and **economic grow
 
 1. **Load raw CSVs** exported from RBI DBIE.
 2. **Trim header noise** and remove extra descriptive rows present in RBI exports.
-3. **Standardize `Year`** column as integer (1950–2024).
+3. **Standardize `Year`** column as integer (1970–2024).
 4. **Handle missing values**:
 
    * Replace `-` or `...` with `NaN`.
@@ -167,7 +167,7 @@ Impulse Response Functions (IRFs) trace the effect of a one-time shock to one va
 ## ⚠️ Limitations
 
 * **Non-stationarity:** Several key time series were non-stationary and required differencing — this complicates both VAR interpretation and ML feature design.
-* **Annual frequency & small sample size:** Only annual observations (1950–2024) limit the amount of training data and model generalizability.
+* **Annual frequency & small sample size:** Only annual observations (1970–2024) limit the amount of training data and model generalizability.
 * **Structural breaks & external shocks:** Major events (1991 reforms, global financial crisis, pandemic) create regime shifts that are hard to model with stationary assumptions.
 * **Model overfitting risk:** XGBoost fits training data extremely well; careful cross-validation and regularization are needed.
 * **Measurement / metadata issues:** RBI exports often include header rows or formatting quirks; careful cleaning is required.
